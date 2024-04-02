@@ -11,13 +11,13 @@
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
 This is a solution to the [Social link profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).
 
-### Challenge
+### The Challenge
 
 This challenge is to build out social links profile.
 Users should be able to see hover and focus states for all interactive elements on the page.
