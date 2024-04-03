@@ -40,7 +40,7 @@ Users should be able to see hover and focus states for all interactive elements 
 
 ### What I learned
 
-*
+* 
 ```html
 
 ```
@@ -49,6 +49,8 @@ Users should be able to see hover and focus states for all interactive elements 
 ```css
 
 ```
+* `a:blank` will generate link with  `href:`,  `target="blank"` and  `rel="noopener noreferrer"`
+
 
 ### Continued development
 
