@@ -1,0 +1,25 @@
+:root {
+    --primary-green: hsl(75, 94%, 57%);
+    
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-grey: hsl(0, 0%, 20%);
+    --neutral-darkGrey: hsl(0, 0%, 12%);
+    --neutral-offBlack: hsl(0, 0%, 8%);
+
+    --fs-s: 0.65rem;
+    --fs-m: 1rem;
+    --fs-l: 1.5rem;
+    --fs-xl: 2rem;
+
+    --fw-m: 400;
+    --fw-l: 600;
+    --fw-xl: 700;
+
+    --ff: 'Inter', sans-serif, serif;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
