@@ -7,9 +7,9 @@
     --neutral-offBlack: hsl(0, 0%, 8%);
 
     --fs-s: 0.65rem;
-    --fs-m: 1rem;
-    --fs-l: 1.5rem;
-    --fs-xl: 2rem;
+    --fs-m: 0.9rem;
+    --fs-l: 1.25rem;
+    --fs-xl: 1.5rem;
 
     --fw-m: 400;
     --fw-l: 600;
@@ -18,8 +18,58 @@
     --ff: 'Inter', sans-serif, serif;
 }
 
+@font-face {
+    font-family: 'Inter';
+    src:  url(fonts/Inter-VariableFont_slnt\,wght.ttf); 
+}
+
 *, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: var(--ff);
+    font-size: var(--fs-m);
+    font-weight: var(--fw-m);
+    background-color: var(--neutral-offBlack);
+    color: var(--neutral-white);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    background-color: var(--neutral-darkGrey);
+    margin: auto;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    height: 5rem;
+}
+
+h1 {
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-l);
+    padding-top: 1.75rem;
+}
+
+h2 {
+    color: var(--primary-green);
+    font-size: var(--fs-m);
+    padding: 0.5rem;
+}
+
+p {
+    padding: 1.25rem;
+}
+
+ul {
+    text-decoration: none;
 }
