@@ -101,8 +101,8 @@ a:hover {
  
 li:hover {
     box-shadow: 0 0 5px var(--primary-green);
-    border-radius: 3rem;
-    transition: all 0.3s ease 0s;
+    border-radius: 1.5rem;
+    transition: 0.7s ease 0s;
 }
 
 @media (max-width: 28rem) {
