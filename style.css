@@ -68,8 +68,6 @@ h2 {
 }
 
 p {
-    /* padding-top: 1.25rem;
-    padding-bottom: 0.75rem; */
     padding: 1.25rem 1.25rem 0.75rem;
 }
 
@@ -89,4 +87,25 @@ a {
     color: var(--neutral-white);
     font-weight: var(--fw-l);
 }
+
+footer {
+    font-size: var(--fs-s);
+    color: var(--neutral-grey);
+}
+
+footer a {
+    color: var(--neutral-grey);
+}
+
+a :hover {
+    color: var(--primary-green);
+}
+
+@media (max-width: 28rem) {
+    p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 
