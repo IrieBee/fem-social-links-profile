@@ -10,7 +10,6 @@
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
 - [Acknowledgements](#acknowledgements)
 
 ## Overview
@@ -40,25 +39,13 @@ Users should be able to see hover and focus states for all interactive elements 
 
 ### What I learned
 
-* 
-```html
-
-```
-
-*
-```css
-
-```
 * `a:blank` will generate link with  `href:`,  `target="blank"` and  `rel="noopener noreferrer"`
 
 
 ### Continued development
 
-*
+* Using emmet
 
-### Useful resources
-
-*
 
 ## Acknowledgements
 
