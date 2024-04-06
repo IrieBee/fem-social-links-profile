@@ -97,6 +97,7 @@ footer a {
 a:hover {
     color: var(--primary-green);
     text-shadow: 0 0 2px var(--primary-green);
+    letter-spacing: 0.075rem;
 }
  
 li:hover {
