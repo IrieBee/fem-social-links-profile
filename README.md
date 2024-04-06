@@ -41,6 +41,17 @@ Users should be able to see hover and focus states for all interactive elements 
 
 * `a:blank` will generate link with  `href:`,  `target="blank"` and  `rel="noopener noreferrer"`
 
+* Move all the settings from `li` to `li a` so on hover effect will work when mouse touches the borders of the link not only the link itself. ***`display: block;`*** is very important.
+```css
+li a{
+    display: block;
+    background-color: var(--neutral-grey);
+    padding: .875rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+```
+
 
 ### Continued development
 
