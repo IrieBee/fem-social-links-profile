@@ -8,12 +8,10 @@
 
     --fs-s: 0.65rem;
     --fs-m: 0.9rem;
-    --fs-l: 1.25rem;
-    --fs-xl: 1.5rem;
+    --fs-l: 1.5rem;
 
     --fw-m: 400;
     --fw-l: 600;
-    --fw-xl: 700;
 
     --ff: 'Inter', sans-serif, serif;
 }
@@ -47,7 +45,6 @@ main {
     padding: 2.5rem 2.5rem 1.5rem 2.5rem;
     border-radius: 0.5rem;
     text-align: center;
-    /* min-width: 24rem; */
 }
 
 img {
@@ -56,7 +53,7 @@ img {
 }
 
 h1 {
-    font-size: var(--fs-xl);
+    font-size: var(--fs-l);
     font-weight: var(--fw-l);
     padding-top: 1.75rem;
 }
@@ -97,8 +94,15 @@ footer a {
     color: var(--neutral-grey);
 }
 
-a :hover {
+a:hover {
     color: var(--primary-green);
+    text-shadow: 0 0 2px var(--primary-green);
+}
+ 
+li:hover {
+    box-shadow: 0 0 5px var(--primary-green);
+    border-radius: 3rem;
+    transition: all 0.3s ease 0s;
 }
 
 @media (max-width: 28rem) {
